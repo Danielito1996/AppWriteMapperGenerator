@@ -21,6 +21,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "CodeGenerator"
-include(":app")
 include(":library")
 include(":processor")
