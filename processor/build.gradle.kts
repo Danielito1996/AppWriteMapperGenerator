@@ -19,7 +19,7 @@ dependencies {
 }
 
 group = "com.github.Danielito1996"
-version = "0.1.1"
+version = "0.1.4"
 
 publishing {
     publications {
@@ -27,7 +27,7 @@ publishing {
             from(components["java"])
             groupId = "com.github.Danielito1996"
             artifactId = "AppWriteMapperGenerator"
-            version = "0.1.1"
+            version = "0.1.4"
         }
     }
 }
