@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                 )
 
                 val js = user.toDocumentData().toList()
-                
+
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     LazyColumn(
                         modifier = Modifier
