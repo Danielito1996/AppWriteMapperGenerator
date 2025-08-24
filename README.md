@@ -26,7 +26,13 @@
 
 ###
 
-<p align="left">1. **Agrega el repositorio de JitPack** a tu archivo `build.gradle.kts` (o `build.gradle`):<br>   ```kotlin<br>   repositories {<br>           maven { url = uri("https://jitpack.io") }<br>   }</p>
+<p align="left">1. **Agrega el repositorio de JitPack** a tu archivo `build.gradle.kts` (o `build.gradle`):</p>
+
+```kotlin
+    repositories {
+        maven { url = uri("https://jitpack.io") }
+    }
+```
 
 ###
 
@@ -36,7 +42,7 @@
     dependencies {
         implementation("com.github.Danielito1996:appwrite-ksp-mapper:1.0.0")
         ksp("com.github.TU_USUARIO:appwrite-ksp-mapper:1.0.0")
-        }
+    }
 ```
 
 ###
