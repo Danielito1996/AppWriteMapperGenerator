@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew :library:build :processor:build
+  - ./gradlew build
