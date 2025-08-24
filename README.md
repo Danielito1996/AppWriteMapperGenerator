@@ -30,6 +30,13 @@
 
 ###
 
-<p align="left">2. **Agrega la dependencia para la librería y KSP**:<br>```kotlin<br>dependencies {<br>    implementation("com.github.TU_USUARIO:appwrite-ksp-mapper:1.0.0")<br>    ksp("com.github.TU_USUARIO:appwrite-ksp-mapper:1.0.0")<br>}</p>
+<p align="left">2. **Agrega la dependencia para la librería y KSP**:</p>
+
+```kotlin
+    dependencies {
+        implementation("com.github.Danielito1996:appwrite-ksp-mapper:1.0.0")
+        ksp("com.github.TU_USUARIO:appwrite-ksp-mapper:1.0.0")
+        }
+```
 
 ###
