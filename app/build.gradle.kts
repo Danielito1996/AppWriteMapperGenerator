@@ -58,6 +58,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.appwrite.sdk)
-    implementation(project(":library"))
-    ksp(project(":processor"))
+    // implementation(project(":library"))
+    // ksp(project(":processor"))
+
+    implementation("com.github.Danielito1996:AppWriteMapperGenerator:Tag")
+    //ksp("com.github.Danielito1996:AppWriteMapperGenerator:0.1.0")
 }
